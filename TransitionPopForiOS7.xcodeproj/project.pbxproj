@@ -10,10 +10,12 @@
 		F84FB1411ACBA15000CDE455 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FB1401ACBA15000CDE455 /* main.m */; };
 		F84FB1441ACBA15000CDE455 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FB1431ACBA15000CDE455 /* AppDelegate.m */; };
 		F84FB1471ACBA15000CDE455 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FB1461ACBA15000CDE455 /* ViewController.m */; };
-		F84FB14A1ACBA15000CDE455 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84FB1481ACBA15000CDE455 /* Main.storyboard */; };
 		F84FB14C1ACBA15000CDE455 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84FB14B1ACBA15000CDE455 /* Images.xcassets */; };
 		F84FB14F1ACBA15000CDE455 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84FB14D1ACBA15000CDE455 /* LaunchScreen.xib */; };
 		F84FB15B1ACBA15000CDE455 /* TransitionPopForiOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FB15A1ACBA15000CDE455 /* TransitionPopForiOS7Tests.m */; };
+		F84FB1661ACBA19000CDE455 /* ExtensionNav.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FB1651ACBA19000CDE455 /* ExtensionNav.m */; };
+		F84FB1691ACBA1AE00CDE455 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FB1681ACBA1AE00CDE455 /* NavigationInteractiveTransition.m */; };
+		F84FB16C1ACBA1D500CDE455 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F84FB16B1ACBA1D500CDE455 /* PopAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +36,17 @@
 		F84FB1431ACBA15000CDE455 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F84FB1451ACBA15000CDE455 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F84FB1461ACBA15000CDE455 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F84FB1491ACBA15000CDE455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F84FB14B1ACBA15000CDE455 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F84FB14E1ACBA15000CDE455 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F84FB1541ACBA15000CDE455 /* TransitionPopForiOS7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionPopForiOS7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84FB1591ACBA15000CDE455 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F84FB15A1ACBA15000CDE455 /* TransitionPopForiOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionPopForiOS7Tests.m; sourceTree = "<group>"; };
+		F84FB1641ACBA19000CDE455 /* ExtensionNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionNav.h; sourceTree = "<group>"; };
+		F84FB1651ACBA19000CDE455 /* ExtensionNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionNav.m; sourceTree = "<group>"; };
+		F84FB1671ACBA1AE00CDE455 /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		F84FB1681ACBA1AE00CDE455 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		F84FB16A1ACBA1D500CDE455 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		F84FB16B1ACBA1D500CDE455 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +92,12 @@
 				F84FB1431ACBA15000CDE455 /* AppDelegate.m */,
 				F84FB1451ACBA15000CDE455 /* ViewController.h */,
 				F84FB1461ACBA15000CDE455 /* ViewController.m */,
-				F84FB1481ACBA15000CDE455 /* Main.storyboard */,
+				F84FB1641ACBA19000CDE455 /* ExtensionNav.h */,
+				F84FB1651ACBA19000CDE455 /* ExtensionNav.m */,
+				F84FB1671ACBA1AE00CDE455 /* NavigationInteractiveTransition.h */,
+				F84FB1681ACBA1AE00CDE455 /* NavigationInteractiveTransition.m */,
+				F84FB16A1ACBA1D500CDE455 /* PopAnimation.h */,
+				F84FB16B1ACBA1D500CDE455 /* PopAnimation.m */,
 				F84FB14B1ACBA15000CDE455 /* Images.xcassets */,
 				F84FB14D1ACBA15000CDE455 /* LaunchScreen.xib */,
 				F84FB13E1ACBA15000CDE455 /* Supporting Files */,
@@ -199,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F84FB14A1ACBA15000CDE455 /* Main.storyboard in Resources */,
 				F84FB14F1ACBA15000CDE455 /* LaunchScreen.xib in Resources */,
 				F84FB14C1ACBA15000CDE455 /* Images.xcassets in Resources */,
 			);
@@ -221,7 +232,10 @@
 			files = (
 				F84FB1471ACBA15000CDE455 /* ViewController.m in Sources */,
 				F84FB1441ACBA15000CDE455 /* AppDelegate.m in Sources */,
+				F84FB16C1ACBA1D500CDE455 /* PopAnimation.m in Sources */,
 				F84FB1411ACBA15000CDE455 /* main.m in Sources */,
+				F84FB1691ACBA1AE00CDE455 /* NavigationInteractiveTransition.m in Sources */,
+				F84FB1661ACBA19000CDE455 /* ExtensionNav.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +258,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F84FB1481ACBA15000CDE455 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F84FB1491ACBA15000CDE455 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F84FB14D1ACBA15000CDE455 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
